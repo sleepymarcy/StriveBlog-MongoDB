@@ -1,0 +1,31 @@
+{
+  "name": "striveblog",
+  "version": "1.0.0",
+  "description": "Strive Blog API using MongoDB",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sleepymarcy/StriveBlog-MongoDB.git"
+  },
+  "keywords": [],
+  "author": "Martyna Sowińska",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sleepymarcy/StriveBlog-MongoDB/issues"
+  },
+  "homepage": "https://github.com/sleepymarcy/StriveBlog-MongoDB#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-list-endpoints": "^6.0.0",
+    "http-errors": "^1.8.0",
+    "mongoose": "^6.0.9"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  }
+}
